@@ -9,7 +9,6 @@ import Stats from './components/Stats';
 import Footer from './components/Footer';
 import Teams from './components/Teams';
 
-
 function App() {
   return (
     <Router>
@@ -18,17 +17,19 @@ function App() {
         <Routes>
           <Route path="/" element={<HeroSection />} />
           <Route path="/form" element={<Form />} />
+          <Route path="/main" element={<Main />} />
           <Route path="/sample-loc" element={<SampleLoc />} />
           <Route path="/sort" element={<Sort />} />
           <Route path="/stats" element={<Stats />} />
           <Route path="/footer" element={<Footer />} />
           <Route path="/teams" element={<Teams />} />
         </Routes>
+
+        {/* Render Footer outside the Routes component */}
          <Form />
-      
+        <Stats />
        
         <SampleLoc />
-        <Stats />
         <Footer />
       </div>
     </Router>
