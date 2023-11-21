@@ -64,7 +64,7 @@ const jobs = [
         salary: "350 USD",
         type: "Full-Vacation",
         location: "Venice, MD",
-        href: "javascript:void(0)"
+        href: "/details"
     },
     {
         title: "Paris",
@@ -73,7 +73,7 @@ const jobs = [
         salary: "$500 USD",
         type: "Vacation",
         location: "France",
-        href: "javascript:void(0)"
+        href: "/details"
     },
     {
         title: "London",
@@ -82,7 +82,7 @@ const jobs = [
         salary: "69USD",
         type: "sleepover",
         location: "Uk",
-        href: "javascript:void(0)"
+        href: "/details"
     },
 ]
 

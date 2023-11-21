@@ -2,7 +2,7 @@ const products = [
     {
       id: 1,
       name: 'Venice',
-      href: '#',
+      href: '/details',
       imageSrc: 'https://cdn.britannica.com/62/153462-050-3D4F41AF/Grand-Canal-Venice.jpg',
       imageAlt: "venice",
       price: '$350',
@@ -11,7 +11,7 @@ const products = [
     {
         id: 2,
         name: 'Venice',
-        href: '#',
+        href: '/details',
         imageSrc: 'https://cdn.britannica.com/62/153462-050-3D4F41AF/Grand-Canal-Venice.jpg',
         imageAlt: "venice",
         price: '$350',
@@ -20,7 +20,7 @@ const products = [
       {
         id: 3,
         name: 'Venice',
-        href: '#',
+        href: '/details',
         imageSrc: 'https://cdn.britannica.com/62/153462-050-3D4F41AF/Grand-Canal-Venice.jpg',
         imageAlt: "venice",
         price: '$350',
@@ -29,7 +29,7 @@ const products = [
       {
         id: 4,
         name: 'Venice',
-        href: '#',
+        href: '/details',
         imageSrc: 'https://cdn.britannica.com/62/153462-050-3D4F41AF/Grand-Canal-Venice.jpg',
         imageAlt: "venice",
         price: '$350',
@@ -70,5 +70,5 @@ const products = [
           </div>
         </div>
       </div>
-    )
+    );
   }
