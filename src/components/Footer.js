@@ -5,63 +5,44 @@ export default () => {
             label: "Company",
             items: [
                 {
-                    href: 'javascript:void()',
-                    name: 'Partners'
+                   
+                    name: 'Members'
                 },
+                
                 {
-                    href: 'javascript:void()',
-                    name: 'Blog'
-                },
-                {
-                    href: 'javascript:void()',
+                    
                     name: 'Team'
                 },
                 {
-                    href: 'javascript:void()',
-                    name: 'Careers'
+                    
+                    name: 'Tours'
                 },
             ],
         },
         {
-            label: "Resources",
+            label: "Catlouge",
             items: [
                 {
-                    href: 'javascript:void()',
-                    name: 'contact'
+                    
+                    name: 'Bookings'
                 },
                 {
-                    href: 'javascript:void()',
+                    
                     name: 'Support'
                 },
-                {
-                    href: 'javascript:void()',
-                    name: 'Docs'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'Pricing'
-                },
+                
+                
             ],
         },
         {
-            label: "About",
+            label: "About Us",
             items: [
                 {
-                    href: 'javascript:void()',
-                    name: 'Terms'
+                    
+                    name: 'Contact'
                 },
-                {
-                    href: 'javascript:void()',
-                    name: 'License'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'Privacy'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'About US'
-                },
+                
+                
             ]
         }
     ]
@@ -73,14 +54,14 @@ export default () => {
                     <div className="max-w-xs">
                         <img src={process.env.PUBLIC_URL + '/images/travellogo.png'} className="w-12" />
                         <p className="leading-relaxed mt-2 text-[15px]">
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                            You can reach out with your email.
                         </p>
                     </div>
                     <form 
                         onSubmit={(e) => e.preventDefault()}
                     >
                         <label className="block pt-4 pb-2">
-                            Stay up to date
+                            We will reach out within 24hrs
                         </label>
                         <div className="max-w-sm flex items-center border rounded-md p-1">
                             <input 
@@ -91,7 +72,7 @@ export default () => {
                             <button
                                 className="p-2.5 rounded-md text-white bg-indigo-600 outline-none shadow-md focus:shadow-none sm:px-5"
                             >
-                                Subscribe
+                                Submit
                             </button>
                         </div>
                     </form>
@@ -126,7 +107,7 @@ export default () => {
             </div>
             <div className="mt-8 py-6 border-t items-center justify-between sm:flex">
                 <div className="mt-4 sm:mt-0">
-                    &copy; Travel.com All rights reserved.
+                    &copy; Travel-209.com All rights reserved.
                 </div>
                 <div className="mt-6 sm:mt-0">
                     <ul className="flex items-center space-x-4">

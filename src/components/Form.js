@@ -7,6 +7,10 @@ const Form = () => {
   const [checkInDate, setCheckInDate] = useState(null);
   const [checkOutDate, setCheckOutDate] = useState(null);
 
+  const redirectToLink = () => {
+    window.location.href = 'https://travel-209.vercel.app/product/hyderabad';
+  };
+
   const handleDestinationChange = (e) => {
     setDestination(e.target.value);
   };
@@ -68,12 +72,13 @@ const Form = () => {
           </div>
         </div>
         <div>
-          <button
-            type="submit"
-            className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
-          >
-            Submit
-          </button>
+        <button
+      type="submit"
+      className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
+      onClick={redirectToLink}
+    >
+      Submit
+    </button>
         </div>
       </form>
     </div>
